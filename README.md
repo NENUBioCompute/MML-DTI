@@ -21,7 +21,7 @@ Install the required libraries according to the `requirements.txt` file.
    - Extraction code: 85ej
    - DrugBank, Davis, and KIBA are all available for download.
 ### File location
-Place the datasets in the `./MML-DTI/preprocess/raw_data directory`.
+Place the datasets in the `./MML-DTI/preprocess/raw_data` directory.
 
 ## Run
 - Data Processing: Run `txt2csv.py` under the `./MML-DTI/preprocess/raw_data` folder to generate the CSV versions of each dataset. Then run `./MML-DTI/data/split_dataset.py` and choose either the random split or the cold-start setting.
