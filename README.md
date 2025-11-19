@@ -23,9 +23,6 @@ Install the required libraries according to the requirements.txt file.
 Place the datasets in the ./MML-DTI/preprocess/raw_data directory.
 
 ## Run
-- Data Processing:
--- Run txt2csv.py under the ./MML-DTI/preprocess/raw_data folder to generate the CSV versions of each dataset. Then run ./MML-DTI/data/split_dataset.py and choose either the random split or the cold-start setting.
-- Generate Embeddings:
--- Execute get_embeddings.py in the preprocess folder to obtain protein and drug embeddings for the model. Alternatively, you can run smilesembedding.py and protembeddings.py separately to generate drug and protein embeddings individually.
-- Run the Model:
--- Run main.py.
+- Data Processing: Run txt2csv.py under the ./MML-DTI/preprocess/raw_data folder to generate the CSV versions of each dataset. Then run ./MML-DTI/data/split_dataset.py and choose either the random split or the cold-start setting.
+- Generate Embeddings: Execute get_embeddings.py in the preprocess folder to obtain protein and drug embeddings for the model. Alternatively, you can run smilesembedding.py and protembeddings.py separately to generate drug and protein embeddings individually.
+- Run the Model: Run main.py.
