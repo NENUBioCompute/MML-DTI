@@ -8,14 +8,20 @@ MML-DTI：The MML-DTI framework consists of four components: Input, feature deco
 <p><img src="fig_model.png" width="600" /></p>
 </div>
 
-环境
-按requirements.txt安装好需要的库
-premodel
-于https://huggingface.co/ibm-research/MoLFormer-XL-both-10pct/tree/main下载molformer，移动到preprocess目录下
-于https://huggingface.co/facebook/esm2_t30_150M_UR50D/tree/main下载ESM2_150M，移动到preprocess目录下
-data
-将drugbank、Davis、KIBA数据集置放于preprocess下raw_data目录下，下载链接：
-Run OurDTI
-1.数据处理：执行/preprocess/raw_data文件夹下的txt2csv.py得到各个数据集的csv版本，然后执行/data/split_dataset.py，选择划分random或者冷启动设置
-2.执行preprcess文件夹下的get_embeddings.py来获取进入模型的蛋白嵌入与药物嵌入，另外也可以通过执行smilesembedding.py和protembeddings来单独获得药物与蛋白嵌入
-3.执行main.py
+## Requirements
+Install the required libraries according to the requirements.txt file.
+### premodel
+Download MoLFormer from https://huggingface.co/ibm-research/MoLFormer-XL-both-10pct/tree/main and move it to the preprocess directory.
+Download ESM2-150M from https://huggingface.co/facebook/esm2_t30_150M_UR50D/tree/main and move it to the preprocess directory.
+
+## Data
+### Data download
+- get from the ./data folder
+- get from 
+### File location
+Place the datasets in the ./MML-DTI/preprocess/raw_data directory.
+
+## Run
+-Data Processing: Run txt2csv.py under the /preprocess/raw_data folder to generate the CSV versions of each dataset. Then run /data/split_dataset.py and choose either the random split or the cold-start setting.
+-Generate Embeddings: Execute get_embeddings.py in the preprocess folder to obtain protein and drug embeddings for the model. Alternatively, you can run smilesembedding.py and protembeddings.py separately to generate drug and protein embeddings individually.
+-Run the Model: Execute main.py.
