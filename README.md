@@ -17,7 +17,8 @@ Install the required libraries according to the requirements.txt file.
 ## Data
 ### Data download
 - get from the ./data folder
-- get from 
+- get from Link: https://pan.baidu.com/s/1vGt320EY2EnnnIdD6qb4cA?pwd=85ej
+  --Extraction code: 85ej
 ### File location
 Place the datasets in the ./MML-DTI/preprocess/raw_data directory.
 
