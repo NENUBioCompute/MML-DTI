@@ -1,0 +1,22 @@
+
+
+settings:
+
+  #由于改成esm2 是640 改成640   1280
+  #  protein_dim: 1024
+  protein_dim: 640
+  hid_dim: 128
+  #这里换成由32换成21 针对778相应的改成2
+  atom_dim: 32
+#  n_heads: 8
+#  n_enlayers: 2
+#  n_delayers: 2
+  dropout: 0.2
+
+lr:
+  lr: 1e-3
+  weight_decay: 1e-4
+  decay_interval: 5
+  lr_decay: 0.5
+
+seed: 1
