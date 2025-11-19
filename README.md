@@ -11,14 +11,14 @@ MML-DTI：The MML-DTI framework consists of four components: Input, feature deco
 ## Requirements
 Install the required libraries according to the requirements.txt file.
 ### Premodel
-- Download MoLFormer from https://huggingface.co/ibm-research/MoLFormer-XL-both-10pct/tree/main and move it to the preprocess directory.
-- Download ESM2-150M from https://huggingface.co/facebook/esm2_t30_150M_UR50D/tree/main and move it to the preprocess directory.
+- Download MoLFormer from https://huggingface.co/ibm-research/MoLFormer-XL-both-10pct/tree/main and move it to the ./MML-DTI/preprocess directory.
+- Download ESM2-150M from https://huggingface.co/facebook/esm2_t30_150M_UR50D/tree/main and move it to the ./MML-DTI/preprocess directory.
 
 ## Data
 ### Data download
-- get from the ./data folder
+- get from the ./Dataset folder
 - get from Link: https://pan.baidu.com/s/1vGt320EY2EnnnIdD6qb4cA?pwd=85ej
-  --Extraction code: 85ej
+   - Extraction code: 85ej
 ### File location
 Place the datasets in the ./MML-DTI/preprocess/raw_data directory.
 
