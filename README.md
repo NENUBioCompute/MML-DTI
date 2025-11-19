@@ -1,12 +1,11 @@
 # MML-DTI
-
-**MML-DTI**：The MML-DTI framework consists of four components: Input, feature decoder, multi-manifold feature fusion module, and interaction prediction module. For drugs, the framework extracts hyperbolic graph neural network features, molecular fingerprints, and pretrained language model features. These representations are then integrated through the multi-manifold feature fusion module to obtain the final drug feature representation. For targets, the final feature representation is directly derived from pretrained language model features. Finally, the drug and target representations are fed into the interaction prediction module to predict potential interactions.
-
-## MML-DTI
-
+## Overview
 <div align="center">
 <p><img src="fig_model.png" width="800" /></p>
 </div>
+
+**MML-DTI**：The MML-DTI framework consists of four components: Input, feature decoder, multi-manifold feature fusion module, and interaction prediction module. For drugs, the framework extracts hyperbolic graph neural network features, molecular fingerprints, and pretrained language model features. These representations are then integrated through the multi-manifold feature fusion module to obtain the final drug feature representation. For targets, the final feature representation is directly derived from pretrained language model features. Finally, the drug and target representations are fed into the interaction prediction module to predict potential interactions.
+
 
 ## Requirements
 Install the required libraries according to the requirements.txt file.
