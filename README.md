@@ -5,7 +5,7 @@ MML-DTI：The MML-DTI framework consists of four components: Input, feature deco
 ## MML-DTI
 
 <div align="center">
-<p><img src="fig_model.png" width="600" /></p>
+<p><img src="fig_model.png" width="800" /></p>
 </div>
 
 ## Requirements
